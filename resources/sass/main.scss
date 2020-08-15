@@ -1,0 +1,217 @@
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: "Karla", sans-serif;
+    font-weight: 200;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: #00765a;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+label {
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+}
+
+.container {
+    min-height: 100%;
+    position: relative;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-left {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.full-height {
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    color: #00765a;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.links {
+    position: relative;
+    color: #00765a;
+    top: 10px;
+    bottom: 20px;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    bottom: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #00765a;
+}
+
+.all-pizzas {
+    margin-bottom: 10px;
+}
+
+.list-item {
+    text-transform: capitalize;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.logo-main {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.type {
+    text-transform: capitalize;
+}
+
+.base {
+    text-transform: capitalize;
+}
+
+footer {
+    position: fixed;
+    font-family: "Inconsolata", monospace;
+    font-size: 16px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+    background: #eee;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    -webkit-box-shadow: 0px -9px 5px -4px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px -9px 5px -4px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px -9px 5px -4px rgba(0, 0, 0, 0.13);
+
+    p {
+        margin: 0;
+    }
+}
+
+.card {
+    margin: 10px auto;
+
+    label {
+        font-family: "Inconsolata",
+            monospace;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    li {
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+    .card-header {
+        font-family: "Inconsolata",
+            monospace;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+
+
+/* pizza details page */
+
+.pizza-details {
+
+    a {
+        color: #00765a;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+    }
+
+    button {
+        background: #5e2195;
+        padding: 8px 20px;
+        color: #fff;
+        border: 0;
+        margin-top: 20px;
+    }
+}
+
+
+
+.center {
+    margin: auto 0;
+    padding: 10px;
+}
+
+/* pizza index page */
+
+.pizza-item {
+    margin: 10px 0;
+    padding: 12px;
+
+    p {
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 60px;
+        display: inline-block;
+    }
+}
